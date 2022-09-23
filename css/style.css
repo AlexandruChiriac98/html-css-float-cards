@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+
+.card{
+    background-color: black;
+    color: white;
+    float: left;
+    width: calc(33.3% - (2rem / 3));
+}
+
+header{
+    padding: 2rem;
+}
+
